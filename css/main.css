@@ -136,13 +136,22 @@ textarea {
         margin-top: 30px;
       }
 
+    img {
+      width: 100%;
+    }
 
+    figure {
+      margin: 0;
+    }
 
-   .content-wrapper {
-     width: 90%;
-     margin: 50px 0;
-   }
+    address {
+     font-style: normal;
+    }
 
+    .content-wrapper {
+      width: 90%;
+      margin: 50px 0;
+    }
    /* -------------------- Base Header - Footer Styles -------------------- */
 
    header,
@@ -160,6 +169,14 @@ textarea {
 
    header .content-wrapper {
      margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   header figure {
+     width: 60%;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -229,6 +246,10 @@ textarea {
    /* Hero Area */
 
    .hero-area {
+     background: url(../img/unplugged-retreat.jpg);
+     background-size: cover;
+     background-position: center;
+     min-height: 500px;
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
@@ -279,6 +300,9 @@ textarea {
    /* Features */
 
    .features {
+     background: url('../img/unplugged-retreat-features.jpg');
+     background-size: cover;
+     background-position: center;
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
@@ -518,6 +542,10 @@ textarea {
     }
     /* Hero Area */
 
+    .hero-area {
+      min-height: 600px;
+    }
+
     .hero-area h1 {
       font-size: 3em;
       line-height: 1;
@@ -683,7 +711,7 @@ textarea {
     /* Hero */
     .hero-area h1 {
       font-size: 3.75em;
-      width: 60%;
+      width: 80%;
   }
 
     /* Aside */

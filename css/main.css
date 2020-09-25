@@ -202,9 +202,13 @@ textarea {
    }
 
    header nav ul {
+     width: 100%;
      display: flex;
      justify-content: space-around;
-     width: 100%;
+   }
+
+   header nav ul li {
+     font-size: 1.125em;
    }
 
    footer {
@@ -232,9 +236,17 @@ textarea {
    }
 
    footer .social-icons p {
+     background-color: #527158;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
      display: flex;
      justify-content: center;
      align-items: center;
+   }
+
+   footer .social-icons p i {
+     font-size: 1.3125em;
    }
 
    footer .copyright {
@@ -275,6 +287,7 @@ textarea {
    aside .form{
      margin-top: 30px;
    }
+
    input[type=text] {
      box-sizing: border-box;
      width: 100%;
@@ -323,7 +336,7 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
    }
-   
+
    .features i {
      font-size: 3.75em;
      margin-bottom: 40px;
@@ -380,8 +393,6 @@ textarea {
      top: 0;
      left: 0;
   }
-
-
 
    .contact-section {
      background-color: #2a423a;
@@ -608,6 +619,10 @@ textarea {
       width: 62%;
     }
 
+    .features i {
+      margin-bottom: 30px;
+    }
+
     /* Reviews */
     .reviews article {
       display: flex;
@@ -617,7 +632,7 @@ textarea {
     .reviews h2 {
       width: 85%;
     }
-
+    .reviews article figure,
     .reviews article div {
       width: 49%;
     }
@@ -650,6 +665,11 @@ textarea {
 
     footer p {
         line-height: 1.285;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
     }
 
     footer .copyright {
